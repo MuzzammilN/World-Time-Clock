@@ -3,7 +3,9 @@ World Time Tracker Web App
 World Time Tracker is a web application that allows users to view the current time in various cities around the world. It utilizes the World Time API to fetch and display real-time data.
 
 Features
+
 Displays current time for predefined cities.
+
 Allows users to input and display time for additional cities.
 Updates time every second to ensure accuracy.
 User-friendly interface with an input form for adding new cities.
