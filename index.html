@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>World Time</title>
+</head>
+<body>
+
+    <h1 id="title">World Time Tracker</h1>
+
+    
+    <div id="box">
+        <div id="row1">
+        <div class="boxes"><h1>Africa/Cairo</h1><p id="ACairo">00:00:00</p></div>
+        <div class="boxes"><h1>Europe/Madrid</h1><p id="EMadrid">00:00:00</p></div>
+    <div class="boxes"><h1>Indian/Maldives</h1><p id="IMaldives">00:00:00</p></div>
+    <div class="boxes"><h1>Pacific/Fiji</h1><p id="PFiji">00:00:00</p></div>
+        </div>
+
+        <div id="signs">
+            <form class="time">
+            <input type="text" class="regionInput" placeholder="Enter City/Country">
+            <input type="text" class="cityInput" placeholder="Enter Region">
+            <input type="text" class="crInput" placeholder="Enter (Region/City)">
+            <button type="submit">Get World Time</button>
+            <p id="texts">Using the time zones listed on this <a href="https://worldtimeapi.org/timezones">website</a>, you can easily obtain the current time and related data for various regions around the globe. This API provides a comprehensive list of recognized time zones, enabling developers to seamlessly integrate accurate and up-to-date time information into their applications.
+
+            </p>
+            </form>
+
+
+        </div>
+
+        <div id="row1">
+            <div class="boxes"><h1>America/Halifax</h1><p id="AHalifax">00:00:00</p></div>
+            <div class="boxes"><h1>Asia/Vladivostok</h1><p id="AVladivostok">00:00:00</p></div>
+            <div class="boxes"><h1>Europe/Rome</h1><p id="ERome">00:00:00</p></div>
+            <div class="boxes"><h1>Asia/Hong_Kong</h1><p id="AHong_Kong">00:00:00</p></div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>

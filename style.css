@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    background-color: hsla(0, 3%, 82%, 0.856);
+}
+
+#title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 7rem;
+    font-style: bold;
+    color:  hsl(0, 0%, 0%);
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 10px;
+
+
+  }
+
+  #box {
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+
+
+  .boxes {  
+    color: white;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 4px 3px rgba(0, 0, 0, 0.286);
+    margin: 20px 40px;
+    height: 140px;
+    width: 420px; 
+    background-color: hsl(203, 29%, 16%);
+    border-radius: 10px;
+
+  }
+
+  .boxes h1 {
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 2rem;
+    text-align: left;
+  }
+
+  .boxes p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 24px;
+  }
+
+
+
+
+  #row1 {
+    text-align: center;
+    font-family:"Poppins", sans-serif;
+    font-size: 2rem;
+
+
+  }
+  
+
+  #signs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+}
+
+  .crInput, .regionInput, .cityInput {
+
+    padding: 30px;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 10px;
+    width: 500px;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.573);
+    border: none;
+}
+
+
+button[type="submit"] {
+
+  margin-top: 40px;
+  padding: 20px 20px;
+  font-weight: bold;
+  font-size: 2rem;
+  background-color: hsl(0, 0%, 0%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+
+}
+
+.time{
+display: flex;
+flex-direction: column;
+}
+
+#entry {
+  margin-top: 20px;
+  background: hsl(203, 29%, 16%);;
+  height: 150px;
+  border-radius: 20px;
+  color: white;
+  display: flex;
+}
+
+#entry p {
+  padding: 0 20px;
+  font-size: 3rem;
+  margin: auto;
+}
+
+form {
+  align-items: center;
+  
+}
+
+#texts {
+  width: 600px;
+}
